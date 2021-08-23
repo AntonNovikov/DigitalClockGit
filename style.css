@@ -1,0 +1,29 @@
+body {
+    background: conic-gradient(from 90deg at 50% 125%, #005c48, #00988b, #7ac600, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00, #b31b00, #987500, #60c600, #00dcd1, #0020d3, #ad00c4, #dc00e4, #ff0015);
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digitalClock{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+
+.digitalClock h1{
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}
